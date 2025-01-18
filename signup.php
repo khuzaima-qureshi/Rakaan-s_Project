@@ -99,7 +99,6 @@ if (isset($_POST["subbtn"])) {
                            id="password" 
                            name="password" 
                            placeholder="Enter your password" 
-                            pattern="(?=.*[A-Z])(?=.*[!@#$%^&*])(?=.{8,})"
                            required>
                     <div class="invalid-feedback">
                         Password must be at least 8 characters long, include one uppercase letter, and one special character.
